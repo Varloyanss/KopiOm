@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- VIDEO INTRO SECTION (CINEMATIC SMALL HEIGHT) -->
-    <div class="relative w-full overflow-hidden h-[90px] md:h-[200px] lg:h-[160px]">
+    <div class="relative w-full overflow-hidden h-[90px] md:h-[200px] lg:h-40">
         <video autoplay muted loop playsinline class="w-full h-full object-cover">
             <source src="/videos/display.mp4" type="video/mp4">
         </video>
