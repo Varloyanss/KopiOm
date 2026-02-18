@@ -19,8 +19,7 @@
             <p class="text-[#F4EBDD]/80 leading-relaxed mb-6">
                 Kopi Om lahir dari semangat sederhana: menghadirkan rasa yang tulus dalam setiap cangkir.
                 Kami percaya, kopi bukan sekadar minuman — tapi bahasa universal yang bisa menyatukan siapa saja.
-                Di sini, setiap racikan kopi punya cerita. Dari biji pilihan, tangan barista, sampai obrolan hangat di meja
-                kamu.
+                Di sini, setiap racikan kopi punya cerita. Dari biji pilihan, tangan barista, sampai obrolan hangat di meja kamu.
             </p>
             <p class="text-[#F4EBDD]/70 leading-relaxed">
                 "Om Punya Rasa, Kamu Punya Selera" bukan cuma tagline, tapi komitmen kami untuk selalu menghadirkan
@@ -32,26 +31,118 @@
     </section>
 
     <!-- FOTO GALERI -->
-    <section data-aos="fade-up" class="bg-stone-900 py-20">
+<section id="galeri" data-aos="fade-up" class="bg-stone-900 py-20">
+
         <h2 class="text-4xl font-bold text-center mb-12 text-amber-400">Suasana di Kopi Om</h2>
+
         <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 px-6">
+
+            <!-- 3 FOTO AWAL -->
             <img src="/images/interior.jpg" alt="Interior Kopi Om"
                 class="rounded-xl object-cover w-full h-[280px] smooth-lift">
+
             <img src="/images/barista.jpg" alt="Barista Kopi Om"
                 class="rounded-xl object-cover w-full h-[280px] smooth-lift">
+
             <img src="/images/pengunjung.jpg" alt="Pengunjung di Kopi Om"
                 class="rounded-xl object-cover w-full h-[280px] smooth-lift">
+
+
+            <!-- FOTO TAMBAHAN (HIDDEN + ANIMASI) -->
+            <img src="/images/galeri1.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+            <img src="/images/galeri2.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+            <img src="/images/galeri3.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+             <img src="/images/galeri4.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+             <img src="/images/galeri5.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+            
+             <img src="/images/galeri6.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+             <img src="/images/galeri7.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+            <img src="/images/galeri8.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+            <img src="/images/galeri9.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+            <img src="/images/galeri10.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+            <img src="/images/vibe1.jpg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+            <img src="/images/vibe2.jpg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+            <img src="/images/vibe3.jpg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+            <img src="/images/suasana2.jpg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+
+            <img src="/images/galeri11.jpeg"
+                class="rounded-xl object-cover w-full h-[280px] smooth-lift opacity-0 scale-95 hidden extra-gallery transition-all duration-500">
+        </div>
+
+        <!-- TOMBOL TOGGLE -->
+        <div class="text-center mt-10">
+            <button id="toggleGalleryBtn" onclick="toggleGallery()"
+                class="bg-amber-400 hover:bg-amber-500 text-black font-semibold px-6 py-3 rounded-lg transition">
+                Lihat Semua Galeri
+            </button>
         </div>
     </section>
 
-    <!-- GOOGLE MAPS -->
-    <section data-aos="fade-up" class="max-w-7xl mx-auto px-6 py-20">
-        <h2 class="text-3xl font-bold text-center text-amber-400 mb-8">Lokasi Kami</h2>
-        <div class="rounded-2xl overflow-hidden border border-[#333] shadow-md shadow-black/30">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0575304572317!2d110.82361739999999!3d-7.568707199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a17bb47431581%3A0xa057e357b8ed3f90!2sKopi%20Om!5e0!3m2!1sid!2sid!4v1762619274330!5m2!1sid!2sid"
-                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
+    <!-- SCRIPT TOGGLE GALERI -->
+    <script>
+    let galleryShown = false;
+
+    function toggleGallery() {
+        const images = document.querySelectorAll('.extra-gallery');
+        const btn = document.getElementById('toggleGalleryBtn');
+
+        if (!galleryShown) {
+            images.forEach(img => {
+                img.classList.remove('hidden');
+
+                // paksa browser reset animasi
+                img.offsetHeight;
+
+                img.classList.remove('opacity-0', 'scale-95');
+                img.classList.add('opacity-100', 'scale-100');
+            });
+
+            btn.textContent = "Sembunyikan";
+            btn.style.width = "auto";
+            galleryShown = true;
+
+        } else {
+            images.forEach(img => {
+                img.classList.remove('opacity-100', 'scale-100');
+                img.classList.add('opacity-0', 'scale-95');
+
+                setTimeout(() => {
+                    img.classList.add('hidden');
+                }, 400);
+            });
+
+            btn.textContent = "Lihat Semua Galeri";
+            btn.style.width = "auto";
+            galleryShown = false;
+        }
+    }
+</script>
+
+
 @endsection

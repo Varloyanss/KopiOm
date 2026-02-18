@@ -138,6 +138,7 @@
                 <div class="flex justify-between"><span>Espresso</span><span>17K</span></div>
                 <div class="flex justify-between"><span>Americano</span><span>20K</span></div>
                 <div class="flex justify-between"><span>Cafe Latte</span><span>26K</span></div>
+                <div class="flex justify-between"><span>Caramel / Vanilla / Butterscotch / Hazelnut</span><span>28K</span></div>
                 <div class="flex justify-between"><span>Cappuccino</span><span>27K</span></div>
                 <div class="flex justify-between"><span>Magic</span><span>27K</span></div>
                 <div class="flex justify-between"><span>Piccolo</span><span>26K</span></div>
@@ -147,7 +148,6 @@
                 <div class="flex justify-between"><span>Add On Espresso</span><span>+5K</span></div>
                 <div class="flex justify-between"><span>Add On Premium Beans</span><span>+5K</span></div>
                 <div class="flex justify-between"><span>Add On Ice Cream</span><span>+5K</span></div>
-                <div class="flex justify-between"><span>Caramel / Vanilla / Butterscotch / Hazelnut</span></div>
             </div>
         </section>
 
@@ -159,6 +159,8 @@
                 <div class="flex justify-between"><span>Kopi Susu Buncit</span><span>26K</span></div>
                 <div class="flex justify-between"><span>Kopi Susu Pandan</span><span>24K</span></div>
                 <div class="flex justify-between"><span>Rum Latte</span><span>26K</span></div>
+                <div class="flex justify-between"><span>Chesse Choco</span><span>26K</span></div>
+                <div class="flex justify-between"><span>Pink Bloom</span><span>26K</span></div>
             </div>
         </section>
 
@@ -166,9 +168,12 @@
         <section data-aos="fade-up">
             <h2 class="text-3xl font-bold mb-6 text-amber-300">Cold Brew Series</h2>
             <div class="space-y-3">
-                <div class="flex justify-between"><span>Moon Berry Cold Brew</span><span>25K</span></div>
+                <div class="flex justify-between"><span>Moon Berry</span><span>25K</span></div>
                 <div class="flex justify-between"><span>Apple Moonlight</span><span>25K</span></div>
-                <div class="flex justify-between"><span>Om Black Cold Brew</span><span>22K</span></div>
+                <div class="flex justify-between"><span>Cold Brew</span><span>22K</span></div>
+                <div class="flex justify-between"><span>Coldbrew Lemon</span><span>25K</span></div>
+                <div class="flex justify-between"><span>Coldbrew Markisa</span><span>25K</span></div>
+                <div class="flex justify-between"><span>Pine Brew</span><span>25K</span></div>
             </div>
         </section>
 
@@ -176,11 +181,11 @@
         <section data-aos="fade-up">
             <h2 class="text-3xl font-bold mb-6 text-amber-300">Coffee Mocktails</h2>
             <div class="space-y-3">
-                <div class="flex justify-between"><span>Cinnabrew Sweet and Sour</span><span>28K</span></div>
+                <div class="flex justify-between"><span>Sweet and Sour</span><span>28K</span></div>
+                <div class="flex justify-between"><span>Cinnabrew</span><span>28K</span></div>
                 <div class="flex justify-between"><span>Picopresso</span><span>28K</span></div>
-                <div class="flex justify-between"><span>Ko-Peach</span><span>28K</span></div>
-                <div class="flex justify-between"><span>Om Banoffee</span><span>28K</span></div>
-                <div class="flex justify-between"><span>Passion Coco</span><span>28K</span></div>
+                <div class="flex justify-between"><span>Ko-Peach Om</span><span>28K</span></div>
+                <div class="flex justify-between"><span>Banoffee</span><span>28K</span></div>
             </div>
         </section>
 

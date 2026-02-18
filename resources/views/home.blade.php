@@ -12,7 +12,6 @@
     </div>
 
 
-
     <!-- HERO -->
     <div data-aos="fade-up"
         class="hero-parallax relative h-[90vh] bg-[url('/images/kopiom-bg.jpg')] bg-cover bg-center flex items-center justify-center">
@@ -24,6 +23,7 @@
             <!-- LOGO -->
             <img data-aos="fade-down" src="/images/logo.png" alt="Logo Kopi Om"
                 class="mx-auto mb-8 w-40 h-auto drop-shadow-[0_0_15px_rgba(0, 0, 0, 0.584)]">
+
             <h1 class="text-6xl font-bold mb-6 leading-tight tracking-tight">
                 Om Punya <span class="text-amber-400">Rasa</span>,<br>
                 Kamu Punya <span class="text-amber-400">Selera</span>.
@@ -65,17 +65,17 @@
         </p>
 
         <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto px-6">
-            <!-- Ngopi Sendiri -->
+            <!-- Ngopi Santuy -->
             <div class="p-6 border border-stone-700 rounded-xl smooth-lift bg-[#1a1a1a]">
-                <img src="/images/vibe1.jpg" alt="Ngopi Sendiri" class="rounded-lg mb-4 h-[180px] w-full object-cover">
-                <h3 class="text-xl font-semibold mb-2">Ngopi Sendiri</h3>
+                <img src="/images/vibe1.jpg" alt="Ngopi Santuy" class="rounded-lg mb-4 h-[180px] w-full object-cover">
+                <h3 class="text-xl font-semibold mb-2">Ngopi Santuy</h3>
                 <p class="opacity-75">Nikmati waktu berkualitas bersama diri sendiri.</p>
             </div>
 
             <!-- Kerja / Ngoding -->
             <div class="p-6 border border-stone-700 rounded-xl smooth-lift bg-[#1a1a1a]">
-                <img src="/images/vibe2.jpg" alt="Kerja / Ngoding" class="rounded-lg mb-4 h-[180px] w-full object-cover">
-                <h3 class="text-xl font-semibold mb-2">Kerja / Ngoding</h3>
+                <img src="/images/vibe2.jpg" alt="Work From Coffe" class="rounded-lg mb-4 h-[180px] w-full object-cover">
+                <h3 class="text-xl font-semibold mb-2">Work From Coffe</h3>
                 <p class="opacity-75">Wifi kencang, suasana tenang, mood aman.</p>
             </div>
 
@@ -85,6 +85,14 @@
                 <h3 class="text-xl font-semibold mb-2">Nongkrong Bareng</h3>
                 <p class="opacity-75">Ngobrol santai, ketawa lepas, cerita ngalir.</p>
             </div>
+        </div>
+
+        <!-- TOMBOL KE GALERI -->
+        <div class="mt-12">
+            <a href="/tentang#galeri"
+                class="inline-block px-8 py-3 bg-amber-600 hover:bg-amber-700 rounded-full text-lg font-medium transition smooth-lift">
+                Lihat Galeri Kopi Om
+            </a>
         </div>
     </section>
 @endsection

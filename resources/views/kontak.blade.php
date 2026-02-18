@@ -32,14 +32,14 @@
                 </li>
                 <li>
                     <span class="font-semibold text-white">🕓 Jam Buka:</span><br>
-                    Senin – Sabtu: 08.30 – 01.00 WIB<br>
-                    Minggu: 06.30 - 01.00 WIB
+                    Senin – Sabtu: 10.00 – 02.00 WIB<br>
+                    Minggu: 06.00 - 02.00 WIB
 
                 </li>
                 <li>
                     <span class="font-semibold text-white">📞 Telepon:</span><br>
-                    <a href="https://wa.me/628156583139" target="_blank" class="text-amber-400 hover:underline">
-                        +62 815-6583-139
+                    <a href="https://wa.me/6287888906888" target="_blank" class="text-amber-400 hover:underline">
+                        +62 878-8890-6888
                     </a>
 
                 </li>
@@ -49,6 +49,16 @@
                         target="_blank" class="text-amber-400 hover:underline">@kopi.om</a>
                 </li>
             </ul>
+        </div>
+    </section>
+     <!-- GOOGLE MAPS -->
+    <section data-aos="fade-up" class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold text-center text-amber-400 mb-8">Lokasi Kami</h2>
+        <div class="rounded-2xl overflow-hidden border border-[#333] shadow-md shadow-black/30">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0575304572317!2d110.82361739999999!3d-7.568707199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a17bb47431581%3A0xa057e357b8ed3f90!2sKopi%20Om!5e0!3m2!1sid!2sid!4v1762619274330!5m2!1sid!2sid"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
         <!-- CTA GOFOOD -->
